@@ -2,18 +2,20 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './Login';
 import CreateProfile from './CreateProfile';
-// other component imports
+// Import other components you need for routing
 
-function App() {
+function TravelingLight() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/create-profile" element={<CreateProfile />} />
-        {/* other routes */}
+        {/* Add other routes here */}
+        {/* For example: */}
+        {/* <Route path="/your-path" element={<YourComponent />} /> */}
       </Routes>
     </Router>
   );
 }
 
-export default App;
+export default TravelingLight;
