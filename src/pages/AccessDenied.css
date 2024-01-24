@@ -1,0 +1,9 @@
+access-denied {
+    text-align: center;
+    padding: 20px;
+}
+
+.access-denied video {
+    max-width: 50%;
+    height: auto;
+}

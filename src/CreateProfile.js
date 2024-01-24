@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './CreateProfile.css';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
+//  -------------- DECLARATION ZONE -------------------------------
+
+
 
 function CreateProfile() {
   const [username, setUsername] = useState('');
